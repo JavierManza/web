@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estructura.css" />
+  </head>
+  <body marginwidth="150" marginheight="30" bgcolor="#000066">
+    <br />
+    <br />
+
+    <a href="index.html"><img src="Imagenes/logo_l.png" width="200" /></a>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <table id="Menu" border="3">
+      <tr>
+        <td><a href="index.html">Inicio</a></td>
+        <td><a href="Modos de Juego.html">Modos de Juego</a></td>
+        <td><a href="Summons.html">Summons</a></td>
+        <td><a href="Tienda.html">Tienda</a></td>
+        <td><a href="Tier List Top 10.html">Tier List</a></td>
+        <td><a href="Sugerencias.html">Sugerencias</a></td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h1 align="center" id="Titulo">
+      <font color="FFFFFF">Sugerencias</font>
+    </h1>
+
+    <br />
+
+    <h2 align="center" id="SubtituloNormales">
+      <font color="FFFFFF">¡Quiero escucharte!</font>
+    </h2>
+
+    <table align="center" cellpadding="8" border="1" width="900">
+      <td id="Introducción" align="justify" bgcolor="FFFFFF">
+        <p>
+          Bienvenido al espacio de sugerencias, donde tu opinión cuenta. Quiero
+          mejorar continuamente y tu feedback es invaluable para mi. Por favor,
+          comparte tus ideas, sugerencias o comentarios sobre cómo puedo hacer
+          que tu experiencia sea aún mejor. Me esforzaré por ofrecerte el mejor
+          servicio posible, y tu participación me ayudará a lograrlo. ¡Gracias
+          por ser parte de mi proceso de mejora!
+        </p>
+        <p>
+          Justo debajo te dejo un formulario que deberás rellenar con tus datos
+          y que te servirá para poder darme tu opinión.
+        </p>
+        <center>
+          <img src="Imagenes/Sugerencia.jpg" width="600" />
+        </center>
+      </td>
+    </table>
+
+    <br />
+
+    <table align="center" cellpadding="8" border="1" width="900">
+      <td id="Introducción" align="justify" bgcolor="FFFFFF">
+        <br />
+        <form
+          action="atreyu556224@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <b>Datos</b>
+          <br />
+          <br />
+          <fieldset>
+            Nombre y Apellidos
+            <br />
+            <input type="text" name="nombre" size="30" maxlength="100" />
+            <br />
+            <br />
+            Email
+            <br />
+            <input type="email" name="correo" maxlength="50" />
+            <br />
+            <br />
+            Sexo
+            <br />
+            <input type="radio" name="sexo" value="Varon" checked /> Hombre
+            <br />
+            <input type="radio" name="sexo" value="Hembra" /> Mujer
+            <br />
+            <br />
+            Fecha de nacimiento
+            <br />
+            <input type="date" name="fecha_nacimiento" />
+          </fieldset>
+          <br />
+          <br />
+          <b>Quiero saber mas sobre ti</b>
+          <br />
+          <br />
+          <fieldset>
+            Frecuencia a la que juegas a Dokkan Battle
+            <br />
+            <select name="utilizacion">
+              <option value="1">Una vez al dia</option>
+              <option value="2">Varias veces al dia</option>
+              <option value="3">Varias veces a la semana</option>
+              <option value="4">Varias veces al mes</option>
+            </select>
+            <br />
+            <br />
+            ¿Cuánto tiempo llevas jugando Dokkan Battle?
+            <br />
+            <textarea cols="20" name="comentarios"></textarea>
+            <br />
+            <br />
+            ¿Cómo calificarías tu experiencia general jugando Dokkan Battle? (1
+            "Es muy mala" y 10 "Es muy buena")
+            <br />
+            <input type="number" name="cantidad" min="1" max="10" />
+            <br />
+            <br />
+            ¿Cuál es tu modo favorito en el juego?
+            <br />
+            <select name="utilizacion">
+              <option value="1">Ultimate Clash</option>
+              <option value="2">World Tournament</option>
+              <option value="3">Chain Battle</option>
+              <option value="4">Pettan Battle</option>
+            </select>
+            <br />
+            <br />
+            ¿Cuál es tu personaje favorito en Dokkan Battle?
+            <br />
+            <textarea cols="50" name="comentarios"></textarea>
+          </fieldset>
+          <br />
+          <br />
+          <b>Sugerencias</b>
+          <br />
+          <br />
+          <fieldset>
+            ¿Cómo describirías el diseño general de la página web? (1 "Es muy
+            mala" y 10 "Es muy buena")
+            <br />
+            <input type="number" name="cantidad" min="1" max="10" />
+            <br />
+            <br />
+            ¿Cómo calificarías la interactividad general de la página web? (1
+            "Es muy mala" y 10 "Es muy buena")
+            <br />
+            <input type="number" name="cantidad" min="1" max="10" />
+            <br />
+            <br />
+            ¿Cómo ha sido tu experiencia general como usuario en la página web?
+            (1 "Es muy mala" y 10 "Es muy buena")
+            <br />
+            <input type="number" name="cantidad" min="1" max="10" />
+            <br />
+            <br />
+            Dejame tu comentario sobre mi página web
+            <br />
+            <textarea cols="115" rows="10" name="comentarios"></textarea>
+          </fieldset>
+          <br />
+          <input type="checkbox" name="recibir_info" checked /> Deseo recibir
+          notificaciones de las novedades de la página web.
+          <br />
+          <br />
+          <input type="submit" value="Enviar formulario" />
+          <br />
+          <br />
+          <input type="Reset" value="Borrar todo" />
+        </form>
+      </td>
+    </table>
+
+    <br />
+    <br />
+
+    <footer>
+      <div class="copyright">
+        © 2023 Javier Manzanarez Peinado. Todos los derechos reservados.
+      </div>
+      <div class="redes-sociales">
+        <a
+          href="https://www.facebook.com/dokkanbattle.dbz/?locale=es_ES"
+          target="_blank"
+          ><img src="Imagenes/Facebook.png"
+        /></a>
+        <!-- target="_blank" abre la página pero en otra pestaña -->
+        <a href="https://twitter.com/dokkan_global" target="_blank"
+          ><img src="Imagenes/Twitter.png"
+        /></a>
+        <a
+          href="https://www.instagram.com/dragon_ball_z_dokkan_battle/"
+          target="_blank"
+          ><img src="Imagenes/Instagram.avif"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

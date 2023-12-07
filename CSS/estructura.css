@@ -1,0 +1,180 @@
+#Menu {
+  width: 100%;
+  background-color: rgba(52, 30, 161, 0.765);
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#Menu a {
+  text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces. */
+  color: #fff;
+  padding: 5px 10px; /* Agrega relleno de 5 píxeles arriba/abajo y 10 píxeles izquierda/derecha a los enlaces. */
+  display: block; /* Hace que los enlaces se comporten como bloques, ocupando toda la anchura disponible. */
+  transition: background-color 0.3s ease-in-out;
+}
+
+#Menu a:hover {
+  background-color: rgba(11, 1, 62, 0.765);
+}
+
+#Titulo {
+  font-family: Comic Sans MS;
+  font-size: 50px;
+}
+
+#Subtitulo {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+#SubtituloNormales {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+#SubtituloEspeciales {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+#SubtituloTop5 {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+#SubtituloTop4 {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+#SubtituloTop3 {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+#SubtituloTop2 {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+#SubtituloTop1 {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+}
+
+p {
+  font-family: Comic Sans MS;
+  font-size: 18px;
+}
+
+b {
+  font-family: Comic Sans MS;
+  font-size: 18px;
+}
+
+.gif {
+  margin: 0 10px;
+  width: 330px;
+  height: 650px;
+  filter: brightness(80%);
+}
+
+#Introducción {
+  font-size: 20px;
+}
+
+#Modalidades {
+  font-size: 20px;
+  margin-left: 10px; /* Espacio entre la imagen y la tabla */
+}
+
+#ImagenDestacada {
+  transition: filter 0.3s ease; /* Agrega transición para suavizar el efecto */
+  border: 3px solid transparent; /* Establece un borde transparente por defecto */
+  border-radius: 75px; /* Ajusta el radio de las esquinas para redondear el borde */
+}
+
+#ImagenDestacada:hover {
+  border-color: rgb(
+    189,
+    247,
+    54
+  ); /* Cambia el color del borde cuando el mouse está sobre la imagen */
+  filter: brightness(120%); /* Ajusta el brillo */
+}
+
+#ImagenDestacadaSummons {
+  transition: filter 0.3s ease; /* Agrega transición para suavizar el efecto */
+  border: 3px solid transparent; /* Establece un borde transparente por defecto */
+}
+
+#ImagenDestacadaSummons:hover {
+  border-color: rgb(
+    189,
+    247,
+    54
+  ); /* Cambia el color del borde cuando el mouse está sobre la imagen */
+  filter: brightness(120%); /* Ajusta el brillo */
+}
+
+#ImagenDestacadaTienda {
+  transition: filter 0.3s ease; /* Agrega transición para suavizar el efecto */
+  border: 3px solid transparent; /* Establece un borde transparente por defecto */
+}
+
+#ImagenDestacadaTienda:hover {
+  border-color: rgb(
+    189,
+    247,
+    54
+  ); /* Cambia el color del borde cuando el mouse está sobre la imagen */
+  filter: brightness(120%); /* Ajusta el brillo */
+}
+
+.contenedor {
+  display: flex; /* Define un contenedor flexible, hace que los elementos secundarios del contenedor se puedan organizar y distribuir automáticamente */
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  font-size: 20px;
+}
+
+.NoSubrayado {
+  text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces. */
+}
+
+.NoSubrayado:hover {
+  background-color: rgb(190, 189, 240);
+}
+
+.Summons {
+  margin: 0 10px;
+  width: 270px;
+  height: 550px;
+}
+
+footer {
+  background-color: rgba(11, 1, 62, 0.765);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.copyright {
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.redes-sociales img {
+  width: 40px;
+  height: 40px;
+}
